@@ -1,0 +1,52 @@
+To check weather string is anagram or not
+input str1=helo
+str2=eloh
+output= the string helo and  eloh are anagram
+
+input:
+str1=hlo
+str2=eloh
+output= the string helo and  eloh are not anagram
+
+test case 
+str1 is null
+str2 is null
+
+
+import java.util.Scanner;
+import java.util.Arrays;
+public class Main {
+   public static void main(String[] args) {
+      String my_string_1="", my_string_2="";
+      Scanner my_scanner = new Scanner(System.in);
+      System.out.print("Enter the first string : ");
+      my_string_1 = my_scanner.nextLine();
+      System.out.print("Enter the second string : ");
+      my_string_2 = my_scanner.nextLine();
+      if(my_string_1.equals("")){
+          System.out.print("String 1 is null");
+      }
+      
+     else if(my_string_2.equals("")){
+          System.out.print("string 2 is empty");
+      }
+      else{
+      my_string_1 = my_string_1.toLowerCase();
+      my_string_2 = my_string_2.toLowerCase();
+      if(my_string_1.length() == my_string_2.length()) {
+         char[] my_array_1 = my_string_1.toCharArray();
+         char[] my_array_2 = my_string_2.toCharArray();
+         Arrays.sort(my_array_1);
+         Arrays.sort(my_array_2);
+         boolean my_result = Arrays.equals(my_array_1, my_array_2);
+         if(my_result) {
+            System.out.println("The strings "+my_string_1 + " and " + my_string_2 + " are anagram.");
+         } else {
+            System.out.println("The strings "+my_string_1 + " and " + my_string_2 + " are not anagram.");
+         }
+      } else {
+         System.out.println("The strings "+my_string_1 + " and " + my_string_2 + " are not anagram.");
+      }
+   }
+   }
+}
