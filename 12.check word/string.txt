@@ -1,0 +1,72 @@
+to check word written is in  right manner or not
+
+input :hello
+output:yes the word hello is correctly written
+
+input :Hello
+output:yes the word Hello is correctly written
+
+input :HELLO
+output:yes the word HELLO is correctly written
+
+test case :
+string is empty
+string having multiple word
+    
+
+import java.util.Scanner;
+public class Main
+{
+    
+	public static void main(String[] args) {
+	    int i,j=0,k=0;
+	    String s="";
+	Scanner sc=new Scanner(System.in);
+        System.out.print("enter the String :  ");
+    s=sc.nextLine();
+     char a[]=new char[s.length()];
+     for( i=0;i<s.length();i++ ){
+         a[i]=s.charAt(i);
+         if(a[i]==' '){
+             k++;
+         }
+        
+         
+     }
+      if(s.equals("")){
+             System.out.print("String is empty");
+         }
+         else if(k==1){
+             System.out.print("please enter only one string");
+         }
+         else{
+     for(char B='a';B<='z';B++){
+         for(i=0;i<s.length();i++){
+         if(B==a[i])
+         j++;
+     }
+     }
+     if(j==s.length()){
+         System.out.print("yes the word "+s+" is correctly written");
+     }
+     else if(j==s.length()-1){
+         for(char A='A';A<='Z';A++){
+             if(a[0]==A){
+         System.out.print("yes the word "+s+" is correctly written");
+
+             }
+         }
+     
+     }
+         else if(j==0){
+         System.out.print("yes the word "+s+" is correctly written");
+
+         }
+         else{
+                 
+         System.out.print("no the word "+s+" is not correctly written");
+         
+         }
+         }
+}
+}
