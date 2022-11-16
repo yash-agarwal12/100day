@@ -1,0 +1,13 @@
+test case 1:
+If rows and cols ==0
+
+test case 2: 
+If row and cols <0
+
+input rows =2
+cols =2
+1  2   3  4  
+output 1  2
+       3  4
+
+2d array
