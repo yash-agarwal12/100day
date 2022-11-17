@@ -1,0 +1,12 @@
+Example:
+Enter number of elements:
+5
+Enter elements:
+10
+20
+30
+40
+50
+Enter target element:
+30
+The element is present at index 3
