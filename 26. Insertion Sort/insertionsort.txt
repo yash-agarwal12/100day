@@ -1,0 +1,10 @@
+Insertion Sort
+
+Input 1 4 2 3
+
+Output 1 2 3 4 
+
+Test case 
+
+If size of array is less than or equals to zero
+Invalid Input
