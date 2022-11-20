@@ -1,0 +1,10 @@
+Selection Sort
+
+input
+1 9 2 3 4 
+
+output 
+1 2 3 4 9 
+
+Test case 
+if size of array is less than equals to zero
