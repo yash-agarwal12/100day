@@ -1,0 +1,12 @@
+Bubble Sort
+
+input:
+5 3 1 2 
+
+Output:
+1 2 3 5 
+
+test case: 
+
+the size of array is less than equals to zero
+Invalid input
