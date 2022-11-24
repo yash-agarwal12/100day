@@ -1,0 +1,15 @@
+bubble sort for String
+
+input: 
+aa
+cc
+bb
+
+output: 
+string 1 is aa
+string 2 is bb
+string 3 is cc
+
+test case 
+is size of array is less than equals to zero
+Invalid Input
