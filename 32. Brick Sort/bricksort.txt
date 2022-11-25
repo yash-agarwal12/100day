@@ -1,0 +1,13 @@
+Java Program to implement Odd-Even Brick Sort
+
+input :
+4 1 6 4 9
+
+output :
+1 4 4 6 9
+
+test case:
+if size of array is less than equals to zero
+
+test case 2:
+array is divided on basis of odd and even index
