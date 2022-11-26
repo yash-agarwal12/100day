@@ -1,0 +1,11 @@
+Java program to sort elements by frequency. 
+
+input: 
+2  1  2  4
+
+output: 
+2  2  4  1
+
+test case:
+if size of array is less than equals to zero
+Invalid Input
