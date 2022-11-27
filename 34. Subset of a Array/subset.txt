@@ -1,0 +1,11 @@
+Java program to find whether an array is subset of another array
+
+Input:
+arr1: 1 2 3 4 
+arr2:1 6 2 3 4 
+
+Output : 
+arr2 [] is subset if arr1[]
+
+Test case:
+id size of array is less than equals to zero
