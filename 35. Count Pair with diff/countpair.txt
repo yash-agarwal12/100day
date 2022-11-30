@@ -1,0 +1,13 @@
+A simple Java program to count pairs with difference k
+
+enter the size of array
+5
+enter the element
+1
+3
+6
+4
+7
+enter the value of k
+5
+Count of pairs with given diff is 1
