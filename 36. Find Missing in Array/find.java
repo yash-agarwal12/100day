@@ -1,10 +1,3 @@
-// A sorting based Java program to find missing
-// elements from an array
-/// input 1 4  5 6 7 
-//low =1
-//high =4
-//output 2 3 
-
 import java.util.Arrays;
 import java.util.Scanner;
 
