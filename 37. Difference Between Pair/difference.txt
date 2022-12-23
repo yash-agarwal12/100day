@@ -1,0 +1,8 @@
+Java implementation of simple method to find minimum difference between any pair
+
+Input: 2 8 5 7 1 
+
+Output: minimum differenceis 1
+
+Test case 
+The size of array is less than equals to zero
