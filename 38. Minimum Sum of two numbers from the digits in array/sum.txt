@@ -1,0 +1,4 @@
+Java program to find minimum sum of two numbers formed from digits of the array.
+
+input: 1 5 4 7 
+output: sum of 62
