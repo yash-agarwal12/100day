@@ -1,0 +1,8 @@
+Java program to make an array same to another using minimum number of swap
+
+input 
+
+arr1 1 5 3 4 
+arr2 1 2 3 4 5 
+
+output no of swap 1
